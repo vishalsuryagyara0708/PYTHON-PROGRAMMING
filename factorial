@@ -1,0 +1,9 @@
+#factorial of a given number using module
+import math
+
+number = 5
+if number < 0:
+    print("Factorial is not defined for negative numbers.")
+else:
+    result = math.factorial(number)
+    print(f"The factorial of {number} is {result}")
