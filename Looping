@@ -1,0 +1,19 @@
+# Loop 
+
+# for loop example
+print("for loop printing numbers:")
+for i in range(5):
+    print(i)
+
+# while loop example
+print("\nwhile loop printing numbers:")
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# Iterating through a list
+print("\nIterating through a list:")
+fruits = ["apple", "banana", "orange"]
+for fruit in fruits:
+    print(fruit)
